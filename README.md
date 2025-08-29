@@ -7,6 +7,24 @@
 <a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/l/laravel/framework" alt="License"></a>
 </p>
 
+## Descripción corta: el proyecto consume una api rest local con utilizando phpmyadmin
+Tecnologías usadas: HTML, CSS(Bootstrap), JavaScript, Node.js, Laravel, etc.
+
+## Instalación / Cómo ejecutar: Instalar dependencias de PHP con Composer:/ composer install
+Copiar el archivo de entorno y configurar la base de datos:/ cp .env.example .env
+Generar la clave de la aplicación: php artisan key:generate
+Ejecutar migraciones (si el proyecto las incluye): php artisan migrate
+Levantar el servidor de desarrollo: php artisan serve El backend estará disponible en: http://localhost:8000
+Instalar dependencias: npm install
+Levantar el servidor de Node.js: npm start
+node index.js El servidor de Node.js estará disponible en: http://localhost:3000
+
+## Aprendizaje / Retos:
+Aprendí conceptos fundamentales de programación backend y consumo de APIs REST.
+Practiqué la conexión entre frontend y backend utilizando JSON.
+Reforcé conocimientos del patrón MVC en Laravel.
+Retos principales: configuración de LocalStorage y manejo de dependencias en Node.js.
+
 ## About Laravel
 
 Laravel is a web application framework with expressive, elegant syntax. We believe development must be an enjoyable and creative experience to be truly fulfilling. Laravel takes the pain out of development by easing common tasks used in many web projects, such as:
